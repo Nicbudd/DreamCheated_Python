@@ -48,13 +48,13 @@ while True:
     pearls = 0
 
     for x in range(305):
-        if random.random() < (1/2):
+        if random.random() < (1.0/2.0):
             rods += 1
 
     if rods >= dreamMaxRods:
 
         for x in range(262):
-            if random.random() < (20/423):
+            if random.random() < (20.0/423.0):
                 pearls += 1
 
         if (rods >= dreamMaxRods and pearls >= dreamMaxPearls) or (rods >= 211 and pearls >= dreamMaxPearls) or (rods >= dreamMaxRods and pearls >= 42):
